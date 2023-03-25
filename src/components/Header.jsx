@@ -7,6 +7,7 @@ export default function Header() {
     <div className="flex w-full justify-between">
       <h1 className="text-3xl font-semibold">TasteMaster</h1>
       <Button onClick={() => router.push('/add')}>Add new survival cooking</Button>
+      <Button onClick={() => router.push('/add')}>Add new tasty recipe</Button>
 
     </div>
   );
